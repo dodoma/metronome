@@ -12,8 +12,6 @@ uint16_t g_tick_need = 4000;
 
 void main(void)
 {
-    uint8_t x = 22;
-
     serial_init();
 
     eepr_read(EEPROM_ADDR, &g_speed, 2);
